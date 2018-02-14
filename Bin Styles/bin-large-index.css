@@ -1,0 +1,247 @@
+* { margin: 0; box-sizing: border-box; } 
+
+body { 
+    font-size: 12px; 
+    line-height: 45px;
+    font-family: "Comic Sans MS", cursive, sans-serif/* font */;
+    color: blueviolet/* #xxxxxx */;
+}
+
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size:30px/* font */;
+    color: white/* #xxxxxx */;
+    
+}
+
+h2 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 28px;
+    text-align: center;   
+}
+
+
+
+
+
+
+
+
+
+
+header {
+    font-family: "Courier New", Courier, monospace;
+    margin: .25rem auto;
+    padding: .6rem;
+    max-width: 355p;
+}
+
+header {
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border-bottom: 10px solid whitesmoke;
+}
+
+
+header img {
+    width: 114px;
+    height: 23p;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*This is the main menu style */
+nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size:16px;
+}
+
+nav li{
+    display:inline;
+    background-color: whitesmoke;
+    color: green
+}
+
+nav a{
+    display:inline-block;
+    padding:45px;
+    border-bottom: 10px solid whitesmoke;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+figure {
+    text-align: center;
+    background-color: white;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+figure img {
+    width: 1000px;
+    height: 23p;
+    float: center;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+    font-family: "Courier New", Courier, monospace;
+    margin: .25rem auto;
+    padding: .6rem;
+    max-width: 355p;
+}
+
+section {
+    text-align: center;
+    background-color: whitesmoke;
+    color: purple;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+section img {
+    width: 50px;
+    height: 23p;
+    float: center;
+}
+
+section.forecast {
+width: 100%;
+color: purple;
+background-color: whitesmoke;
+text-align: center;
+padding: 0;
+border: 0;
+margin: 0;
+outline-style: white;
+outline-width: 100;
+outline-color: black;
+}
+
+/* Table: */
+table {
+    margin: 0px auto;
+}
+
+section.forecast table thead th {
+width: 10.2%;
+
+text-align: center;
+padding: 0;
+border: 0;
+margin: 0;
+outline-style: solid;
+outline-width: thin;
+outline-color: black;
+color: black;
+background-color: cyan;
+}
+
+section.forecast table tbody tr td{
+width: 10.2%;
+
+color: black;
+background-color: azure;
+text-align: center;
+padding: 0;
+border: 0;
+margin: 0;
+outline-style: solid;
+outline-width: thin;
+outline-color: black;
+}
+
+
+
+
+
+
+
+
+
+article {
+    text-align: center;
+    background-color: white;
+    color: purple;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    display:inline-block;
+    padding:45px;
+    border-bottom: 10px solid whitesmoke;
+}
+
+article img {
+    width: 170px;
+    height: 23p;
+    float: left;
+
+}
+
+
+
+
+
+
+
+
+
+footer {
+    font-family: "Courier New", Courier, monospace;
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 355p;
+    border-bottom: 20px solid whitesmoke;
+}
+
+footer, footer a {
+    text-align: justify;
+    background-color: cornflowerblue;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+footer {
+    font-size: 12 /* 12 */;
+}
+
+width="200" height="273"
