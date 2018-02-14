@@ -159,38 +159,7 @@ outline-width: 100;
 outline-color: black;
 }
 
-/* Table: */
-table {
-    margin: 0px auto;
-}
 
-section.forecast table thead th {
-width: 10.2%;
-
-text-align: center;
-padding: 0;
-border: 0;
-margin: 0;
-outline-style: solid;
-outline-width: thin;
-outline-color: black;
-color: black;
-background-color: cyan;
-}
-
-section.forecast table tbody tr td{
-width: 10.2%;
-
-color: black;
-background-color: azure;
-text-align: center;
-padding: 0;
-border: 0;
-margin: 0;
-outline-style: solid;
-outline-width: thin;
-outline-color: black;
-}
 
 
 
