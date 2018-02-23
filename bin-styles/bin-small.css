@@ -1,0 +1,120 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+* {margin:0}
+
+body {
+  font-size: 16px;
+  /* Declare the base font-family - from google font api or other */
+}
+
+.hamburger {
+    display: block;
+    position:sticky;
+    top: 2.0rem;
+    right:1.25rem;
+    height: 23p;
+     
+}
+
+header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    max-width:inherit;
+}
+
+
+
+/*This is the main menu style */
+nav{
+    overflow:hidden;
+    margin: 0 0 .2rem 5%; width:100%;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size:16px;
+}
+
+nav li{
+    display:inline;
+    background-color: whitesmoke;
+    color: green
+}
+
+nav a{
+    display:inline-block;
+    padding:45px;
+    border-bottom: 10px solid whitesmoke;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+}
+
+    
+nav ul li a:hover {
+    color: mediumpurple
+}
+
+
+nav button {
+    margin: 0.2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    display: none;
+    
+}
+
+
+
+
+/* When the responsive class is added to the unordered list on hamburger button click 
+placed in a media query in order to accomodate the toggle when in wider view*/
+@media only screen and (max-width: 600em) {
+    nav a:not(:first-child) {display: none;}
+    nav button {
+    float: right;
+    display: block;
+     }
+    
+}
+
+
+
+/* The following can be used in lieu of a button with a HTML entity which may not be dispalyed correctly in all browsers - or a SVG option is good - button size issue
+.hamburger { 
+    content: "";
+    position: absolute;
+    right: 1.5rem; top: 1.8rem;
+    display: block;
+    width: 1.25rem; height: 0;
+    -webkit-box-shadow: 1px 10px 1px 1px #eee,1px 16px 1px 1px #eee,1px 22px 1px 1px #eee;
+    box-shadow: 0 10px 0 1px #eee,0 16px 0 1px #eee,0 22px 0 1px #eee;
+}*/
+@media only screen and (min-width: 600em) {
+    header, nav {   margin: 0 auto; max-width: 600px;   }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+main figure { margin: 0 0 .2rem 2%; width:97%; }
+main figure img { width: 80%; }
+
+
+
+/* Other Class Selectors */
